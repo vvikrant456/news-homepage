@@ -1,0 +1,19 @@
+.nav-desk {
+  display: block;
+}
+
+.nav-mob {
+  position: relative;
+  margin-right: 1rem;
+  display: none;
+  background-color: red;
+}
+
+@media screen and (max-width: 376px) {
+  .nav-desk {
+    display: none;
+  }
+  .nav-mob {
+    display: block;
+  }
+}
