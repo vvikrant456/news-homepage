@@ -4,7 +4,7 @@ const Navbar = () => {
   const [toggleMenu, setToggleMenu] = useState(false);
   return (
     <>
-      <div className="grid grid-cols-2 gap-4">
+      <div className="grid grid-cols-[minmax(900px, 1fr)] gap-2">
         <section>
           <svg width="65" height="40" xmlns="http://www.w3.org/2000/svg">
             <path
@@ -13,7 +13,7 @@ const Navbar = () => {
             />
           </svg>
         </section>
-        <section className="hidden sm:col-start-2 sm:flex sm:justify-between">
+        <section className="hidden w-auto sm:col-start-2 sm:flex sm:justify-between">
           <a className="hover:text-[#e9ab53]" href="/">
             Home
           </a>
